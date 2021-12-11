@@ -5,7 +5,6 @@ import { Link } from "gatsby"
 const Header = ({ siteTitle }) => (
   <header
     style={{
-      background: `rebeccapurple`,
       marginBottom: `1.45rem`,
     }}
   >
@@ -16,17 +15,19 @@ const Header = ({ siteTitle }) => (
         padding: `1.45rem 1.0875rem`,
       }}
     >
-      <h1 style={{ margin: 0 }}>
-        <Link
-          to="/"
-          style={{
-            color: `white`,
-            textDecoration: `none`,
-          }}
-        >
-          {siteTitle}
-        </Link>
+      <h1>
+        DARK SIDE OF THE
+        <span style={{ color: '#FF0000' }}> $</span>
+        <span style={{ color: '#FFAA00' }}>R</span>
+        <span style={{ color: '#AAFF00' }}>A</span>
+        <span style={{ color: '#00FF00' }}>I</span>
+        <span style={{ color: '#00FFAA' }}>N</span>
+        <span style={{ color: '#00AAFF' }}>B</span>
+        <span style={{ color: '#0000FF' }}>O</span>
+        <span style={{ color: '#AA00FF' }}>W</span>
+        <span style={{ color: '#FF00AA' }}>S</span>
       </h1>
+      <h4>A Noundle Theory companion site</h4>
     </div>
   </header>
 )
